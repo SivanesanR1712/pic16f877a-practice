@@ -1,0 +1,55 @@
+# Generated 09/09/2026 GMT
+
+# Copyright (c) 2026 Microchip Technology Inc. and its subsidiaries.
+# 
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+# 
+#   http://www.apache.org/licenses/LICENSE-2.0
+# 
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# Syntax: config setting mapping
+# <config macro>:<#pragma config setting>
+# Syntax: null mapping
+# <config macro>:
+EXTCLKO:
+MCLREN:
+OSC_8MHZ:
+UNPROTECT:
+WDTEN:
+FOSC_LP:FOSC=LP
+LP:FOSC=LP
+FOSC_XT:FOSC=XT
+XT:FOSC=XT
+FOSC_HS:FOSC=HS
+HS:FOSC=HS
+FOSC_EC:FOSC=EC
+EC:FOSC=EC
+FOSC_INTRC_RB4:FOSC=INTRC_RB4
+INTIO:FOSC=INTRC_RB4
+FOSC_INTRC_CLKOUT:FOSC=INTRC_CLKOUT
+INTCLKO:FOSC=INTRC_CLKOUT
+FOSC_ExtRC_RB4:FOSC=ExtRC_RB4
+EXTIO:FOSC=ExtRC_RB4
+FOSC_ExtRC_CLKOUT:FOSC=ExtRC_CLKOUT
+WDTE_ON:WDTE=ON
+WDTE_OFF:WDTE=OFF
+WDTDIS:WDTE=OFF
+CP_OFF:CP=OFF
+CP_ON:CP=ON
+PROTECT:CP=ON
+MCLRE_ON:MCLRE=ON
+MCLRE_OFF:MCLRE=OFF
+MCLRDIS:MCLRE=OFF
+IOSCFS_8MHz:IOSCFS=8MHz
+IOSCFS_4MHz:IOSCFS=4MHz
+OSC_4MHZ:IOSCFS=4MHz
+CPDF_OFF:CPDF=OFF
+CPDF_ON:CPDF=ON
+CPD:CPDF=ON

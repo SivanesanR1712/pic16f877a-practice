@@ -1,0 +1,78 @@
+# Generated 09/09/2026 GMT
+
+# Copyright (c) 2026 Microchip Technology Inc. and its subsidiaries.
+# 
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+# 
+#   http://www.apache.org/licenses/LICENSE-2.0
+# 
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# Syntax: config setting mapping
+# <config macro>:<#pragma config setting>
+# Syntax: null mapping
+# <config macro>:
+BOREN:
+BOREN_ON:
+BORV19:
+BORV_19:
+CP_OFF:
+DEBUGDIS:
+DEBUG_OFF:
+FOSC_EXTRCCLK:
+MCLREN:
+MCLRE_ON:
+PLLEN:
+PLLEN_ON:
+PWRTDIS:
+PWRTE_OFF:
+RCCLKO:
+RES_RESERVED:
+UNPROTECT:
+VCAPDIS:
+VCAPEN_DIS:
+WDTCS_STANDARD_WATCHDOG_TIMER_IS_SELECTED:
+WDTEN:
+WDTE_ON:
+FOSC_EXTRCIO:FOSC=EXTRCIO
+RCIO:FOSC=EXTRCIO
+FOSC_INTOSCCLK:FOSC=INTOSCCLK
+INTCLKO:FOSC=INTOSCCLK
+FOSC_INTOSCIO:FOSC=INTOSCIO
+INTIO:FOSC=INTOSCIO
+FOSC_EC:FOSC=EC
+EC:FOSC=EC
+FOSC_HS:FOSC=HS
+HS:FOSC=HS
+FOSC_XT:FOSC=XT
+XT:FOSC=XT
+FOSC_LP:FOSC=LP
+LP:FOSC=LP
+WDTE_OFF:WDTE=OFF
+WDTDIS:WDTE=OFF
+PWRTE_ON:PWRTE=ON
+PWRTEN:PWRTE=ON
+VCAPRA0:PWRTE=ON
+VCAPRA6:PWRTE=ON
+MCLRE_OFF:MCLRE=OFF
+MCLRDIS:MCLRE=OFF
+VCAPRA0:MCLRE=OFF
+VCAPRA5:MCLRE=OFF
+CP_ON:CP=ON
+PROTECT:CP=ON
+BOREN_NSLEEP:BOREN=NSLEEP
+BOREN_XSLP:BOREN=NSLEEP
+BOREN_OFF:BOREN=OFF
+BORDIS:BOREN=OFF
+BORV_25:BORV=25
+BORV25:BORV=25
+PLLEN_OFF:PLLEN=OFF
+PLLDIS:PLLEN=OFF
+DEBUG_ON:DEBUG=ON
+DEBUGEN:DEBUG=ON

@@ -1,0 +1,190 @@
+<!-- Generated 09/09/2026 GMT -->
+
+<!--
+ Copyright (c) 2026 Microchip Technology Inc. and its subsidiaries.
+ 
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ 
+   http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<HTML>
+<HEAD>
+<TITLE>Microchip MPLAB XC8 C Compiler: 16F73 Support Information</TITLE>
+</HEAD>
+<BODY>
+<h2>16F73 Support Information</h2>
+<h3>XC8-CC #pragma config Usage</h3>
+<table bgcolor="lightgray" width="100%" cellpadding="10">
+<tbody>
+<th colspan="1">
+<div align="left"><tt>#pragma config &lt;setting&gt;=&lt;named value&gt;</tt></div>
+</th>
+<tr bgcolor="white">
+<td>For example:<br/><code>// Oscillator Selection bits : RC oscillator<br/>// Watchdog Timer Enable bit : WDT enabled<br/>// Power-up Timer Enable bit : PWRT disabled<br/>// FLASH Program Memory Code Protection bit : Code protection off<br/>// Brown-out Reset Enable bit : BOR enabled<br/>#pragma config FOSC = RC, WDTE = ON, PWRTE = OFF, CP = OFF, BOREN = ON</code></td>
+</tr>
+</tbody></table>
+<table bgcolor="lightgray" width="100%" cellpadding="10">
+<tbody>
+<th colspan="1">
+<div align="left"><tt>#pragma config &lt;setting&gt;=&lt;literal constant&gt;</tt></div>
+</th>
+<tr bgcolor="white">
+<td>For example:<br/><code>// Oscillator Selection bits : RC oscillator<br/>// Watchdog Timer Enable bit : WDT enabled<br/>// Power-up Timer Enable bit : PWRT disabled<br/>// FLASH Program Memory Code Protection bit : Code protection off<br/>// Brown-out Reset Enable bit : BOR enabled<br/>#pragma config FOSC = 0x3, WDTE = 0x1, PWRTE = 0x1, CP = 0x1, BOREN = 0x1</code></td>
+</tr>
+</tbody></table>
+<table bgcolor="lightgray" width="100%" cellpadding="10">
+<tbody>
+<th colspan="1">
+<div align="left"><tt>#pragma config &lt;register&gt;=&lt;literal constant&gt;</tt></div>
+</th>
+<tr bgcolor="white">
+<td>For example:<br/><code>// Oscillator Selection bits : RC oscillator<br/>// Watchdog Timer Enable bit : WDT enabled<br/>// Power-up Timer Enable bit : PWRT disabled<br/>// FLASH Program Memory Code Protection bit : Code protection off<br/>// Brown-out Reset Enable bit : BOR enabled<br/>#pragma config CONFIG = 0x3FFF</code></td>
+</tr>
+<tr bgcolor="white">
+<td>For example:<br/><code>// IDLOC @ 0x2000<br/>#pragma config IDLOC0 = 0x127</code></td>
+</tr>
+</tbody></table>
+<br/>
+<h3>PIC-AS config Usage</h3>
+<table bgcolor="lightgray" width="100%" cellpadding="10">
+<tbody>
+<th colspan="1">
+<div align="left"><tt>config "&lt;setting&gt;"="&lt;named value&gt;"</tt></div>
+</th>
+<tr bgcolor="white">
+<td>For example:<br/><code>; Oscillator Selection bits : RC oscillator<br/>; Watchdog Timer Enable bit : WDT enabled<br/>; Power-up Timer Enable bit : PWRT disabled<br/>; FLASH Program Memory Code Protection bit : Code protection off<br/>; Brown-out Reset Enable bit : BOR enabled<br/>config "FOSC" = "RC", "WDTE" = "ON", "PWRTE" = "OFF", "CP" = "OFF", "BOREN" = "ON"</code></td>
+</tr>
+</tbody></table>
+<table bgcolor="lightgray" width="100%" cellpadding="10">
+<tbody>
+<th colspan="1">
+<div align="left"><tt>config "&lt;setting&gt;"=&lt;literal constant&gt;</tt></div>
+</th>
+<tr bgcolor="white">
+<td>For example:<br/><code>; Oscillator Selection bits : RC oscillator<br/>; Watchdog Timer Enable bit : WDT enabled<br/>; Power-up Timer Enable bit : PWRT disabled<br/>; FLASH Program Memory Code Protection bit : Code protection off<br/>; Brown-out Reset Enable bit : BOR enabled<br/>config "FOSC" = 0x3, "WDTE" = 0x1, "PWRTE" = 0x1, "CP" = 0x1, "BOREN" = 0x1</code></td>
+</tr>
+</tbody></table>
+<table bgcolor="lightgray" width="100%" cellpadding="10">
+<tbody>
+<th colspan="1">
+<div align="left"><tt>config "&lt;register&gt;"=&lt;literal constant&gt;</tt></div>
+</th>
+<tr bgcolor="white">
+<td>For example:<br/><code>; Oscillator Selection bits : RC oscillator<br/>; Watchdog Timer Enable bit : WDT enabled<br/>; Power-up Timer Enable bit : PWRT disabled<br/>; FLASH Program Memory Code Protection bit : Code protection off<br/>; Brown-out Reset Enable bit : BOR enabled<br/>config "CONFIG" = 0x3FFF</code></td>
+</tr>
+<tr bgcolor="white">
+<td>For example:<br/><code>; IDLOC @ 0x2000<br/>config "IDLOC0" = 0x127</code></td>
+</tr>
+</tbody></table>
+<br/>
+<h3>Configuration Registers & Settings</h3>
+<table bgcolor="lightgray" width="100%" cellpadding="2">
+<tbody>
+<th colspan="2">
+<div align="left">Register: CONFIG @ 0x2007</div>
+</th>
+<tr bgcolor="white">
+<td width="20%"><b><tt>FOSC</tt></b></td>
+<td><b>Oscillator Selection bits</b></td>
+</tr>
+<tr bgcolor="white">
+<td width="20%"><tt>RC</tt></td>
+<td>RC oscillator</td>
+</tr>
+<tr bgcolor="white">
+<td width="20%"><tt>HS</tt></td>
+<td>HS oscillator</td>
+</tr>
+<tr bgcolor="white">
+<td width="20%"><tt>XT</tt></td>
+<td>XT oscillator</td>
+</tr>
+<tr bgcolor="white">
+<td width="20%"><tt>LP</tt></td>
+<td>LP oscillator</td>
+</tr>
+<tr bgcolor="white">
+<td width="20%"><b><tt>WDTE</tt></b></td>
+<td><b>Watchdog Timer Enable bit</b></td>
+</tr>
+<tr bgcolor="white">
+<td width="20%"><tt>ON</tt></td>
+<td>WDT enabled</td>
+</tr>
+<tr bgcolor="white">
+<td width="20%"><tt>OFF</tt></td>
+<td>WDT disabled</td>
+</tr>
+<tr bgcolor="white">
+<td width="20%"><b><tt>PWRTE</tt></b></td>
+<td><b>Power-up Timer Enable bit</b></td>
+</tr>
+<tr bgcolor="white">
+<td width="20%"><tt>OFF</tt></td>
+<td>PWRT disabled</td>
+</tr>
+<tr bgcolor="white">
+<td width="20%"><tt>ON</tt></td>
+<td>PWRT enabled</td>
+</tr>
+<tr bgcolor="white">
+<td width="20%"><b><tt>CP</tt></b></td>
+<td><b>FLASH Program Memory Code Protection bit</b></td>
+</tr>
+<tr bgcolor="white">
+<td width="20%"><tt>OFF</tt></td>
+<td>Code protection off</td>
+</tr>
+<tr bgcolor="white">
+<td width="20%"><tt>ON</tt></td>
+<td>All Memory locations code protected</td>
+</tr>
+<tr bgcolor="white">
+<td width="20%"><b><tt>BOREN</tt></b></td>
+<td><b>Brown-out Reset Enable bit</b></td>
+</tr>
+<tr bgcolor="white">
+<td width="20%"><tt>ON</tt></td>
+<td>BOR enabled</td>
+</tr>
+<tr bgcolor="white">
+<td width="20%"><tt>OFF</tt></td>
+<td>BOR disabled</td>
+</tr>
+</tbody></table>
+<table bgcolor="lightgray" width="100%" cellpadding="2">
+<tbody>
+<th colspan="2">
+<div align="left">Register: IDLOC0 @ 0x2000</div>
+</th>
+</tbody></table>
+<table bgcolor="lightgray" width="100%" cellpadding="2">
+<tbody>
+<th colspan="2">
+<div align="left">Register: IDLOC1 @ 0x2001</div>
+</th>
+</tbody></table>
+<table bgcolor="lightgray" width="100%" cellpadding="2">
+<tbody>
+<th colspan="2">
+<div align="left">Register: IDLOC2 @ 0x2002</div>
+</th>
+</tbody></table>
+<table bgcolor="lightgray" width="100%" cellpadding="2">
+<tbody>
+<th colspan="2">
+<div align="left">Register: IDLOC3 @ 0x2003</div>
+</th>
+</tbody></table>
+<br/>
+</BODY>
+</HTML>
